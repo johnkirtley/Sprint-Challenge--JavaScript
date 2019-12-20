@@ -36,7 +36,7 @@ console.log(consume('Mary', 'Poppins', greeting));
 
 // Explanation: 
 // nestedFunction can access the variable internal because when the variable is called it searches a level up until it gets to the global scope. 
-// If internal was declared within the nestedFunction and the nestedFunction was invoked within the same function, invoking myFunction would not have access to the nestedFunction.
+// If internal was declared within the nestedFunction and the nestedFunction was invoked within itself, invoking myFunction would not have access to the nestedFunction.
 // If the above setup was true, then invoking nestedFunction in the global scope would return an undefined.
 
 
